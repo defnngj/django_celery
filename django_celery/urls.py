@@ -21,5 +21,5 @@ from api.views import index, task
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("test/", index),
-    path("run/<int:rid>/", task)
+    path("run/<int:tid>/", task)
 ]

@@ -19,3 +19,11 @@
 ```shell script
 > python .\manage.py runserver
 ```
+
+## 测试
+
+调用接口
+
+```shell script
+http://127.0.0.1:8000/run/1/
+```

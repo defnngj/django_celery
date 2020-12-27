@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+	<testsuite errors="0" failures="0" file="test_case.py" name="test_case.Test-20201227212327" skipped="0" tests="2" time="1.275" timestamp="2020-12-27T21:23:28">
+		<testcase classname="test_case.Test" file="api\cases\test_case.py" line="516" name="test_case_0_http_httpbin_org_get" time="0.795" timestamp="2020-12-27T21:23:28"/>
+		<testcase classname="test_case.Test" file="api\cases\test_case.py" line="516" name="test_case_1_http_httpbin_org_post" time="0.479" timestamp="2020-12-27T21:23:28"/>
+	</testsuite>
+</testsuites>

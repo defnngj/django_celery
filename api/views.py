@@ -9,7 +9,19 @@ def index(request):
     return JsonResponse({'msg':'This is OK !'})
 
 
-def task(request, rid):
-    print("任务id", rid)
-    run_task.delay()
+def interface_data():
+    """
+    定义接口数据
+    """
+    data_list = [
+        ("http://httpbin.org/get", "get", {"params": {'key': 'value'} }, "resp"),
+        ("http://httpbin.org/post", "post", {"data": {'key': 'value'}}, "resp"),
+    ]
+    return data_list
+
+
+def task(request, tid):
+    print("任务id", tid)
+    data = interface_data()
+    run_task.delay(tid, data)
     return JsonResponse({'msg': 'running'})
