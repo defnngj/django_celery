@@ -122,7 +122,6 @@ STATIC_URL = '/static/'
 
 
 # Celery settings
-
 CELERY_BROKER_URL = 'redis://localhost:6379/0'
 
 #: Only add pickle to this list if your broker is secured

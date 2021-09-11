@@ -14,7 +14,7 @@ def interface_data():
     定义接口数据
     """
     data_list = [
-        ("http://httpbin.org/get", "get", {"params": {'key': 'value'} }, "resp"),
+        ("http://httpbin.org/get", "get", {"params": {'key': 'value'}}, "resp"),
         ("http://httpbin.org/post", "post", {"data": {'key': 'value'}}, "resp"),
     ]
     return data_list
