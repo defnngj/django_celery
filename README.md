@@ -63,3 +63,9 @@ D:/path/redis took 9s
 ```shell script
 http://127.0.0.1:8000/run/1/
 ```
+
+
+## 文档：
+
+https://docs.celeryproject.org/en/latest/django/first-steps-with-django.html
+
